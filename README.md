@@ -32,7 +32,7 @@ The time program allows you to use figure out how long it took a specific progra
 2. Use the `time` command to run the program.sh with an argument of 10000
 
 What is the difference in time between task 1 and task 2?  
-**[YOUR ANSWER HERE]**
+**The difference in time between task 1 and task 2 is approximately 0.065 seconds, with the 10000 iteration run taking longer.**
 
 # Part 4 `diff`
 When working with log files or any other text files we may want to compare two different text files to see what has changed between them. For example if you run a program twice with different arguments we may want to find out what is different between each programs outputs. Please refer to the following link for details on how to read the `diff` commands output.
