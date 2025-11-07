@@ -43,7 +43,41 @@ https://people.eecs.berkeley.edu/~bh/v2ch2/diff.html
 1. Use the diff command to compare file_a.txt and file_b.txt
 
 Which lines and/or characters are different between these files?
-**[YOUR ANSWER HERE]**
+**
+
+10a11
+> - Cloud backup integration
+13c14
+< 1. Phase 1: Core functionality (Weeks 1-3)
+---
+> 1. Phase 1: Core functionality (Weeks 1-4)
+16a18
+>    - Design initial UI mockups
+18c20
+< 2. Phase 2: Feature development (Weeks 4-8)
+---
+> 2. Phase 2: Feature development (Weeks 5-9)
+23c25
+< 3. Phase 3: Testing and refinement (Weeks 9-12)
+---
+> 3. Phase 3: Testing and refinement (Weeks 10-12)
+29c31
+< - React.js 18.0
+---
+> - React.js 18.2
+32c34,35
+< - Express 4.18.0
+---
+> - Express 4.18.2
+> - Redis 7.0
+39c42,43
+< - Priya Patel: QA Engineer
+\ No newline at end of file
+---
+> - Priya Patel: QA Engineer
+> - James Wilson: DevOps Specialist
+\ No newline at end of file
+ **
 
 # Part 5 `head`/`tail` `more`/`less`
 Sometimes we use the terminal to view very large text files such as system logs. Printing these large text files to the terminal usually forces portions to get cut off due to the buffer size of terminal emulator. While you could increase the buffer size to fit the entire file, this is not a great solution. We can use programs like head/tail to view the top or bottom of the files then scroll up from there. more and less do similar things, more allows forward navigation and minimal backwards navigation, while less allows for both forward and backwards navigation. 
